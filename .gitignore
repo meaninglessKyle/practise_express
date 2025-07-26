@@ -1,1 +1,17 @@
+# ides
 .idea/
+
+
+# Kyle 用于 个人开发阶段 的辅助脚本
+# 例如：fetch_upstream.bat -> fetch 上游（源仓库），同步最新代码
+# TODO 正常情况 下方 .kyle_dev_scripts/ 文件夹应该 ignore，当面试需要（展示全技能等原因），暂不ignore
+# .kyle_dev_scripts/
+
+# dist
+dist/
+
+
+# node_modules
+node_modules/
+
+
