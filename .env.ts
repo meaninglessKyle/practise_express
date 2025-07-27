@@ -1,6 +1,4 @@
-/**
- * TODO  先简单设置 环境变量
- * */
-export default {
-    isDev: true,
-};
+import {Config} from "@root/configs/types";
+
+export default {} as Config;
+
