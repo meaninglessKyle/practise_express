@@ -12,5 +12,9 @@
         },
         "outDir": "./dist",
         "sourceMap": true
-    }
+
+    },
+    "exclude": [
+        "db", ".kyle_dev_scripts"
+    ]
 }

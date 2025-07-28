@@ -1,0 +1,18 @@
+datasource db {
+    provider = "postgresql"
+    // TODO change it to read from env file
+    url = "postgresql://postgres:Dafeiji!23@localhost:5432/postgres?schema=test_postgre_1"
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+
+model User {
+    @@map("user")
+    id Int @id @default(autoincrement())
+    username String @db.VarChar(20)
+    birthYear Int @map("birth_year")
+    isMale Boolean @map("is_male")
+}
