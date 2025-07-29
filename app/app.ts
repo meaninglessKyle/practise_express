@@ -6,7 +6,7 @@ import path from "node:path";
 import * as process from "node:process";
 import {router} from "@root/app/routes";
 
-
+// express's application
 const app = express();
 
 /** middleware */
