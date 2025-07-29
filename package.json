@@ -9,7 +9,7 @@
         "start": "node ./dist/app/app.js ENV=development",
         "build": "rimraf dist && tsc -p tsconfig.json",
         "watch": "nodemon --exec \"npm run build && npm run start\" --watch app --ext ts",
-        "prisma:gen": "prisma generate --schema=./db/schema.prisma"
+        "prisma:gen": "prisma generate"
     },
     "dependencies": {
         "@prisma/client": "^6.12.0",
