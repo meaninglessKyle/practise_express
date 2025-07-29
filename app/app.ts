@@ -9,6 +9,9 @@ import {router} from "@root/app/routes";
 
 const app = express();
 
+/** middleware */
+app.use(express.json());
+
 
 // the static files, E.g. *.html, *.js *.css etc.
 app.use("/public", express.static(path.resolve(process.cwd(), "public")));

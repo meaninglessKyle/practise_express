@@ -3,3 +3,7 @@ export type ResponseType<T = any> = {
     data: T,
     msg?: string,
 }
+
+export type User_GetListParams = {
+    username?: string,
+}
